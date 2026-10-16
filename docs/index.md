@@ -28,6 +28,10 @@ AudioPlayer.Instance.Play(swordSwing, transform.position)
 [Get started](docs/getting-started.md){ .md-button .md-button--primary }
 [Read the FAQ](faq.md){ .md-button }
 
+<video controls preload="metadata" poster="assets/media/trailer_poster.jpg" style="width:100%;border-radius:8px;margin-top:1rem">
+  <source src="assets/media/trailer.mp4" type="video/mp4">
+</video>
+
 ## What is in the package
 
 <div class="grid cards" markdown>
@@ -72,9 +76,16 @@ AudioPlayer.Instance.Play(swordSwing, transform.position)
     ---
 
     Unity 2022.3 LTS and Unity 6, assembly definitions, Enter Play Mode with Domain Reload disabled,
-    Built-in / URP / HDRP. 47 EditMode tests included.
+    Built-in / URP / HDRP. 48 EditMode tests included.
 
 </div>
+
+## Screenshots
+
+![Markers that call your code](assets/media/01_markers.jpg)
+![Trim, fade, re-level and re-speed clips](assets/media/03_edit.jpg)
+![Audio Debug in Play Mode](assets/media/04_debug.jpg)
+![Bands, beats and AudioReactive](assets/media/06_reactive.jpg)
 
 ## Technical details
 
