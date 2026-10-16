@@ -10,6 +10,7 @@ images or sounds. This page lists the open-source pieces that the website and th
 | [MkDocs](https://www.mkdocs.org/) | Site generator | BSD-2-Clause, &copy; 2014-present Tom Christie and contributors |
 | [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) | Theme (layout, scripts, styles) | MIT, &copy; 2016-2024 Martin Donath |
 | [Lunr.js](https://lunrjs.com/) and its language add-ons | In-browser search | MIT; notices kept in the bundled files |
+| [Mermaid](https://mermaid.js.org/) | Bundled by the theme for diagrams (not used on these pages) | MIT, &copy; 2014-present Knut Sveidqvist and contributors |
 | [Font Awesome Free](https://fontawesome.com/) 6.6.0 | GitHub and e-mail icons | Icons: CC BY 4.0, &copy; Fonticons, Inc.; attribution kept in each icon |
 | [Material Design Icons](https://pictogrammers.com/library/mdi/) | Interface icons | Apache License 2.0 |
 | [Roboto](https://fonts.google.com/specimen/Roboto), [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono) | Website text | SIL Open Font License 1.1 / Apache License 2.0; served from this site |

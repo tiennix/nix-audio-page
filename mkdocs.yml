@@ -58,9 +58,7 @@ nav:
 
 plugins:
   - search
-  - privacy:
-      assets_exclude:
-        - unpkg.com/mermaid@11/*
+  - privacy
 
 markdown_extensions:
   - admonition
