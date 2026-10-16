@@ -6,4 +6,8 @@
   (keys `nix.audio.bus.*`), on the player's device.
 - In the Unity Editor it stores the FFmpeg path and a view preference in `EditorPrefs` on your machine.
 
-This website is hosted on GitHub Pages; see GitHub's privacy statement for the data GitHub collects.
+## This website
+
+- It is hosted on GitHub Pages; see GitHub's privacy statement for the data GitHub collects.
+- Fonts, icons and scripts are served from this site; pages make no requests to other services, use no
+  cookies and contain no analytics. Search runs in your browser.

@@ -13,4 +13,4 @@ parts of the packaging work were produced with the help of Claude (Anthropic), t
 tested by me. The package ships with EditMode tests and is verified in clean Unity 2022.3 and Unity 6
 projects.
 
-[Privacy](privacy.md)
+[Credits](credits.md) · [Privacy](privacy.md)

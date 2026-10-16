@@ -51,7 +51,16 @@ nav:
   - FAQ: faq.md
   - Changelog: changelog.md
   - Support: support.md
-  - About: about.md
+  - About:
+      - About: about.md
+      - Credits: credits.md
+      - Privacy: privacy.md
+
+plugins:
+  - search
+  - privacy:
+      assets_exclude:
+        - unpkg.com/mermaid@11/*
 
 markdown_extensions:
   - admonition
@@ -76,8 +85,6 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/tiennix/nix-audio-page
 
-not_in_nav: |
-  privacy.md
 
 validation:
   omitted_files: warn
