@@ -1,0 +1,10 @@
+name: Feature request
+description: Suggest an improvement to NIX Audio.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: What do you want to do, and what gets in the way today?
+    validations:
+      required: true

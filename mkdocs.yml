@@ -1,0 +1,86 @@
+site_name: NIX Audio
+site_url: https://tiennix.github.io/nix-audio-page/
+site_description: Clip metadata, timed markers, pooled playback and an audio editor window for Unity.
+site_author: tiennix
+repo_url: https://github.com/tiennix/nix-audio-page
+repo_name: tiennix/nix-audio-page
+edit_uri: ""
+copyright: Copyright &copy; 2026 tiennix
+
+theme:
+  name: material
+  icon:
+    logo: material/waveform
+    repo: fontawesome/brands/github
+  favicon: assets/favicon.svg
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep orange
+      accent: orange
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep orange
+      accent: orange
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - search.highlight
+    - content.code.copy
+    - toc.follow
+
+nav:
+  - Home: index.md
+  - Documentation:
+      - Getting started: docs/getting-started.md
+      - Runtime API: docs/runtime.md
+      - Audio Studio: docs/audio-studio.md
+      - Audio Debug: docs/audio-debug.md
+      - FFmpeg (optional): docs/ffmpeg.md
+      - Demo scenes: docs/demo.md
+      - Performance and recipes: docs/performance.md
+      - Limitations and tests: docs/limitations.md
+  - FAQ: faq.md
+  - Changelog: changelog.md
+  - Support: support.md
+  - About: about.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra:
+  social:
+    - icon: fontawesome/solid/envelope
+      link: mailto:tientv.0702@gmail.com
+    - icon: fontawesome/brands/github
+      link: https://github.com/tiennix/nix-audio-page
+
+not_in_nav: |
+  privacy.md
+
+validation:
+  omitted_files: warn
+  absolute_links: warn
+  unrecognized_links: warn
+  anchors: warn
