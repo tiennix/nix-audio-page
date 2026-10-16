@@ -35,6 +35,20 @@ previews them. **Apply to clip**:
 - **Save as new clip** writes a new asset next to the original.
 - **Format**: *Same as source*, or WAV 16-bit, 24-bit or 32-bit float. Without FFmpeg, non-WAV sources are saved as WAV.
 
+### Settings asset
+
+`Assets/Settings/NixAudio/NixAudioStudioSettings.asset` is created the first time Audio Studio opens. It starts
+empty and fills in as you work; select it to see its sources as paths and to open Audio Studio.
+
+| Setting | What it is | Changed in |
+|---|---|---|
+| Clip sources | Folders and clips listed on the left, stored by GUID so renames and moves keep working | **+ Add ▾**, drag and drop, **×** |
+| Default library | The library being edited | Toolbar **Library** field, **+ New Library** |
+| Marker snap | Off, Transient or Grid | Transport snap menu |
+| Fallback WAV format | 16-bit, 24-bit or 32-bit float WAV used when an edit is saved as WAV but the source format cannot be kept (a compressed source without FFmpeg, or a source whose bit depth cannot be read). WAV sources always keep their own bit depth. | The settings asset's Inspector |
+
+Commit the asset so the team shares the same setup. The FFmpeg path and *Follow* are stored per machine.
+
 ### Undo / Redo
 
 Ctrl/Cmd + Z works for everything stored in assets: adding, moving (one step per drag), renaming and deleting
